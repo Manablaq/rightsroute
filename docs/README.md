@@ -10,7 +10,6 @@ RightsRoute is a contract package, not a complete end-user product. It contains 
 4. [Integration guide](INTEGRATION_GUIDE.md) for user- and application-facing transaction handling.
 5. [Hosted Studio validation](RIGHTSROUTE_STUDIO_VALIDATION.md) for exact finalized evidence.
 6. [Verification status](RIGHTSROUTE_STATUS.md) for local coverage and known limits.
-7. [Submission correction](SUBMISSION_CORRECTION.md) for the contract-only repository-scope correction.
 
 ## Package layout
 
@@ -23,4 +22,4 @@ tests/direct/                        Targeted Direct Mode suite
 docs/                                API, architecture, security, integration, evidence
 ```
 
-No frontend, wallet integration, application workflows, unrelated contracts, consumer-market logic, or application deployment code is included in this submission package.
+No frontend routes, browser application shell, unrelated contracts, consumer-market logic, or application deployment code is included in this submission package.

@@ -11,7 +11,7 @@ RightsRoute registers a public HTTPS policy document with a pre-committed SHA-25
 
 This repository is intentionally scoped for an **Intelligent Contracts** submission. It contains contract source, a restricted callback example, Direct Mode tests, a public hash-pinned fixture, Hosted Studio validation evidence, and contract documentation only.
 
-It does not include the previous user-facing product application, consumer wallet flow, ranking UI, frontend routes, browser app shell, or hosted-app deployment package. Those product artifacts are outside the scope of this contract repository.
+It does not include frontend routes, browser application code, consumer payment flows, ranking UI, or hosted-app deployment assets. Product artifacts are intentionally outside the scope of this contract repository.
 
 ## Scope
 
@@ -46,7 +46,6 @@ It is useful as a primitive for dataset registries, model marketplaces, software
 | [Integration guide](docs/INTEGRATION_GUIDE.md) | Application workflow, transaction handling, and evidence preparation. |
 | [Studio evidence](docs/RIGHTSROUTE_STUDIO_VALIDATION.md) | Finalized Hosted Studio deployment, resolution, and callback evidence. |
 | [Verification status](docs/RIGHTSROUTE_STATUS.md) | Local test coverage and exact validation boundary. |
-| [Submission correction](docs/SUBMISSION_CORRECTION.md) | How the repository addresses the prior scope rejection. |
 
 ## Validation
 

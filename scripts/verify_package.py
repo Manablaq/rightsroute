@@ -20,7 +20,6 @@ REQUIRED = (
     "docs/RIGHTSROUTE_STATUS.md",
     "docs/SECURITY_AND_LIMITS.md",
     "docs/INTEGRATION_GUIDE.md",
-    "docs/SUBMISSION_CORRECTION.md",
 )
 
 FORBIDDEN_TOP_LEVEL = (

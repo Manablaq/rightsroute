@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  lint-contracts:
-    name: Lint Contracts
+  verify-package:
+    name: Verify contract package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,7 +16,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: genvm-lint check contracts/football_bets.py
+      - run: python scripts/verify_package.py
+      - run: python -m py_compile contracts/*.py tests/direct/*.py scripts/verify_package.py
+      - run: genvm-lint check contracts/rights_route.py contracts/rights_route_callback_consumer.py
 
   test-direct:
     name: Direct Mode Tests
