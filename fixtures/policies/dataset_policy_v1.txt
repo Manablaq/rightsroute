@@ -1,0 +1,16 @@
+RightsRoute Dataset Policy Fixture v1
+
+1. Scope
+This policy applies to use of the Example Research Dataset and to models derived from it.
+
+2. Commercial model training
+Commercial model training using the dataset is permitted.
+
+3. Public derivatives
+If a derived model or other derivative is made available to the public, the user must clearly attribute the Example Research Dataset and its publisher.
+
+4. Original dataset redistribution
+Redistribution of the original dataset is prohibited.
+
+5. Sublicensing
+Sublicensing the original dataset requires separate written permission.
